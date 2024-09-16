@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+nav {
+    background: coral;
+}
+.nav_content {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav_list a {
+    font-size: 18px;
+    color: white;
+}
+.logo {
+    font-size: 22px;
+    color: white;
+}
